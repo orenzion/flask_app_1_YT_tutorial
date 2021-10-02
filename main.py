@@ -8,4 +8,4 @@ were created in this file.  '''
 app = create_app()
 
 if __name__ == '__main__':
-    app.tun(debug=True)
+    app.run(debug=True)
