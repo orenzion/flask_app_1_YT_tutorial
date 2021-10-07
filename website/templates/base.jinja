@@ -19,6 +19,8 @@
     <title>{% block title %}HOME{% endblock %}</title>
   </head>
   <body>
+  
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <button
         class="navbar-toggler"
@@ -81,9 +83,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      type = "text/javascript";
-      src = "{{ url_for('static',filename='index.js') }}";
-    </script>
+    <script
+      type = "text/javascript"
+      src = "{{ url_for('static',filename='index.js') }}"
+    ></script>
+
+    
   </body>
 </html>
